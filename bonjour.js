@@ -20,7 +20,7 @@ var os = require('os');
 var app = express();
 
 function say_bonjour(){
-    return "Bonjour de " + os.hostname();
+    return "Bonjour:v2 de " + os.hostname();
 }
 
 app.get('/api/bonjour', function(req, resp) {
